@@ -13,7 +13,10 @@ public class Main {
                     case 2: // Show all employees
                         manager.ShowEmployees();
                         break;
-                    case 3: // Exit
+                    case 3: // Remove employee
+                        manager.RemoveEmployee();
+                        break;
+                    case 4: // Exit
                         System.exit(0);
                         break;
                     default: // Invalid choice
