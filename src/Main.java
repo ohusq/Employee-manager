@@ -23,7 +23,7 @@ public class Main {
 
             }
             catch (NumberFormatException ex){
-                ex.printStackTrace(); // Ignore the warning about robust logging
+                System.out.println("Invalid choice. Please try again.");
             }
         }
     }
